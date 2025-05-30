@@ -53,6 +53,7 @@ gcc nomefile.c -o eseguibile
 Per eseguire uno script python
 cd src
 python3 nomefile.py
+```
 
 
 # Licenza
