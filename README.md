@@ -55,8 +55,7 @@ cd src
 python3 nomefile.py
 ```
 
-
-# Licenza
+# Licenza
 Progetto distribuito sotto licenza MIT.
 
 # Autore
