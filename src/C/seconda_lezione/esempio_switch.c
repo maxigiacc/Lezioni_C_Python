@@ -2,8 +2,7 @@
 
 int main () {
 
-    char c = 'A';
-
+    char c = getchar();
     switch (c) {
         case 'A':
             printf("Hai inserito la Vocale A");

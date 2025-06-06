@@ -4,14 +4,13 @@ int main () {
 
     // inizializzazione
     int i = 0;
-    
     // condizione
-    while( i < 5) {
+    while( 0 ) {
         printf("Iterazione %d\n", i);
 
         // iterazione
-        i++;
+        //i++;
     }
-
+    printf("No ciclo");
     return 0;
 }
