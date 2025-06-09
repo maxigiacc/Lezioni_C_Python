@@ -21,7 +21,7 @@ int main() {
 
     printf("Nome: %s\n", nome);
     printf("Età: %d", eta);
-    printf("")
+    printf("");
 
     return 0;
 }
