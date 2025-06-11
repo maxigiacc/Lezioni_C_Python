@@ -10,6 +10,7 @@ int main () {
     int dimensione = 0;
     printf("Inserisci la dimensione dell'array: \n");
     scanf("%d", &dimensione);
+
     //allocazione di memoria
     array = malloc(dimensione * sizeof(double));
     // inizializzazione
@@ -24,5 +25,8 @@ int main () {
     for(int i = 0; i < dimensione; i++) {
         printf("%.3f, ", array[i]);
     }
+
+    free(array);
+
     return 0;
 }

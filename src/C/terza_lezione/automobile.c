@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Automobile {
+typedef struct {
     char marca[30];
     char modello[30];
     int anno;
     float chilometraggio;
     int cavalli;
-};
+} Automobile;
 
 int main() {
-    struct Automobile auto1;
+    Automobile auto1;
     
     // Accesso diretto con operatore punto
     strcpy(auto1.marca, "Toyota");

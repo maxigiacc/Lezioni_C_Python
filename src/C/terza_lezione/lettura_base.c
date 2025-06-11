@@ -14,6 +14,8 @@ int main() {
     
     // Lettura e stampa riga per riga
     printf("Contenuto del file:\n");
+    
+    // lettura riga per riga, fintanto che fgets non ritorna NULL
     while (fgets(buffer, sizeof(buffer), fp) != NULL) {
         printf("%s", buffer);
     }

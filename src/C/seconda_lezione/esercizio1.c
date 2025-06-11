@@ -1,11 +1,9 @@
 #include <stdio.h>
-
-// Dichiarazione della funzione fattoriale
-int fattoriale(int n);
+#include "funzione.h"
 
 int main() {
     printf("=== ESERCIZI C ===\n\n");
-    
+    /*
     // ESERCIZIO 1: Valutazione voto
     printf("1. VALUTAZIONE VOTO\n");
     int voto;
@@ -43,6 +41,7 @@ int main() {
     }
     
     printf("\n");
+    */
     
     // ESERCIZIO 3: Calcolo del fattoriale
     printf("3. CALCOLO DEL FATTORIALE\n");
@@ -53,25 +52,15 @@ int main() {
     if (numero < 0) {
         printf("Errore: Il fattoriale non è definito per numeri negativi\n");
     } else {
-        int risultato = fattoriale(numero);
-        printf("Il fattoriale di %d è: %d\n", numero, risultato);
+        int risultato = fattoriale(numero);     //funzione 
+        stampa_risultato(numero, risultato);    //procedura 
     }
+
+    int indice = 0;  
+    int *ptr = &indice;
+    // risultato atteso 1
+    somma_indice(ptr);
+    printf("\n\n%d", *ptr);
     
     return 0;
-}
-
-// Definizione della funzione fattoriale
-int fattoriale(int n) {
-    // Caso base: 0! = 1 e 1! = 1
-    if (n == 0 || n == 1) {
-        return 1;
-    }
-    
-    // Calcolo iterativo del fattoriale
-    int risultato = 1;
-    for (int i = 2; i <= n; i++) {
-        risultato *= i;
-    }
-    
-    return risultato;
 }

@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 
-struct ContoCorrente {
+typedef struct CC {
     char intestatario[50];
     char iban[35];
     float saldo;
     int numero_conto;
-};
+} ContoCorrente;
 
 int main() {
-    struct ContoCorrente conto1;
-    struct ContoCorrente *ptr_conto = &conto1;
+    ContoCorrente conto1;
+    ContoCorrente array [] = {conto1};
+    ContoCorrente *ptr_conto = &conto1;
     
     // Metodo 1: Accesso tramite puntatore con ->
     strcpy(ptr_conto->intestatario, "Mario Rossi");

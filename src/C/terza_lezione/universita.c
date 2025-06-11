@@ -66,15 +66,17 @@ int main() {
         .numero_corsi = 0
     };
     
-    // Aggiunta corsi con struct annidate
-    mario.corsi_seguiti[0] = (Corso){
-        "Programmazione in C",
-        "Prof. Bianchi",
-        9,
-        {9, 0},   // Inizio: 09:00
-        {11, 0},  // Fine: 11:00
-        "Aula A1"
+    Corso c = {
+        .nome_corso = "Programmazione in C",
+        .docente = "Prof. Bianchi",
+        .crediti = 9,
+        .inizio_lezione = (Orario) {9, 0},
+        .fine_lezione = (Orario) {11, 0},
+        .aula = "Aula A1",
     };
+
+    // Aggiunta corsi con struct annidate
+    mario.corsi_seguiti[0] = c;
     mario.numero_corsi++;
     
     mario.corsi_seguiti[1] = (Corso){

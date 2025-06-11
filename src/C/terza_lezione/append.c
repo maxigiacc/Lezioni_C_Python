@@ -11,7 +11,7 @@ int main() {
     stringa_tempo = ctime(&ora_corrente);
     
     // Apri il file in modalità append
-    fp = fopen("log.txt", "a");
+    fp = fopen("saluto.txt", "a");
     
     if (fp == NULL) {
         printf("Impossibile aprire il file di log!\n");
@@ -22,9 +22,7 @@ int main() {
     fprintf(fp, "Accesso al programma: %s", stringa_tempo);
     fprintf(fp, "Operazione completata con successo.\n");
     fprintf(fp, "------------------------\n");
-    
     fclose(fp);
-    
     printf("Voce aggiunta al file di log!\n");
     return 0;
 }

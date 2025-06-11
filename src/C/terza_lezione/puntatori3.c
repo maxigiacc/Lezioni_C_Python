@@ -14,15 +14,16 @@ void incrementa_originale(int *x) {
 
 int main() {
     int numero = 10;
-    
+    int *ptr = &numero;
+
     printf("Valore iniziale: %d\n", numero);
     
     // Test passaggio per valore
-    incrementa_copia(numero);
-    printf("Dopo passaggio per valore: %d\n", numero);  // Ancora 10!
+    //incrementa_copia(numero);
+    //printf("Dopo passaggio per valore: %d\n", numero);  // Ancora 10!
     
     // Test passaggio per riferimento
-    incrementa_originale(&numero);
+    incrementa_originale(ptr);
     printf("Dopo passaggio per riferimento: %d\n", numero);  // Ora è 11!
     
     return 0;

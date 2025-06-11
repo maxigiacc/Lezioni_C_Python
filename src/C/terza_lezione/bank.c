@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-struct BankAccount {
+typedef struct {
     char titolare[50];
     float saldo;
     int numero_transazioni;
-};
+} BankAccount;
 
 // Funzione che riceve un PUNTATORE alla struct originale
-void deposita(struct BankAccount *conto, float importo) {
+void deposita(BankAccount *conto, float importo) {
     if (importo > 0) {
         conto->saldo += importo;
         conto->numero_transazioni++;
@@ -19,7 +19,7 @@ void deposita(struct BankAccount *conto, float importo) {
     }
 }
 
-void preleva(struct BankAccount *conto, float importo) {
+void preleva(BankAccount *conto, float importo) {
     if (importo > 0 && importo <= conto->saldo) {
         conto->saldo -= importo;
         conto->numero_transazioni++;
@@ -30,7 +30,7 @@ void preleva(struct BankAccount *conto, float importo) {
     }
 }
 
-void stampa_estratto_conto(struct BankAccount conto) {
+void stampa_estratto_conto(BankAccount conto) {
     printf("\n=== ESTRATTO CONTO ===\n");
     printf("Titolare: %s\n", conto.titolare);
     printf("Saldo attuale: %.2f euro\n", conto.saldo);
@@ -39,10 +39,10 @@ void stampa_estratto_conto(struct BankAccount conto) {
 }
 
 int main() {
-    struct BankAccount conto_mario = {
-        "Mario Bianchi",
-        1000.00,
-        0
+    BankAccount conto_mario = {
+        .titolare = "Mario Bianchi",
+        .saldo = 1000.00,
+        .numero_transazioni = 0
     };
     
     stampa_estratto_conto(conto_mario);

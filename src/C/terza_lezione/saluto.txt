@@ -1,0 +1,28 @@
+Benvenuto nel mondo della programmazione C!
+Oggi è una bella giornata per imparare.
+Numero magico: 42
+
+Accesso al programma: Wed Jun 11 17:50:28 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:50:58 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:51:00 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:51:01 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:51:02 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:51:02 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:51:03 2025
+Operazione completata con successo.
+------------------------
+Accesso al programma: Wed Jun 11 17:51:06 2025
+Operazione completata con successo.
+------------------------

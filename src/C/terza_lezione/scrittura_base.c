@@ -4,7 +4,7 @@ int main() {
     FILE *fp;
     
     // Apertura del file in modalità scrittura
-    fp = fopen("saluto.txt", "w");
+    fp = fopen("saluto.txt", "w+");
     
     // Controllo errori
     if (fp == NULL) {
