@@ -36,7 +36,9 @@ Il focus è su programmazione procedurale, gestione della memoria, scripting e a
 ## ✅ Requisiti
 
 - Compilatore C (es. `gcc`)
+- (Oppure) Compilatore online https://www.onlinegdb.com/online_c_compiler#
 - Interprete Python 3 (es. `python3`)
+- (Oppure) Interprete Online https://www.onlinegdb.com/online_python_compiler
 
 ---
 
