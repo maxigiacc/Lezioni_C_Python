@@ -2,6 +2,7 @@
 positivi = 0
 negativi = 0
 pari = 0
+dispari = 0
 totale = 0
 
 # Input: numero di elementi
@@ -10,7 +11,7 @@ n = int(input("Quanti numeri vuoi inserire? "))
 # Ciclo di inserimento e controllo
 for i in range(n):
     numero = int(input(f"Inserisci il numero {i+1}: "))
-    totale += numero
+    totale = totale + numero
 
     if numero > 0:
         positivi += 1
@@ -18,6 +19,7 @@ for i in range(n):
             pari += 1
             print("Positivo e pari")
         else:
+            dispari += 1
             print("Positivo e dispari")
     elif numero < 0:
         negativi += 1

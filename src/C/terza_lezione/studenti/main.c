@@ -1,17 +1,16 @@
 #include "studenti.h"
 
 void mostra_menu() {
-    printf("\n=== GESTIONE ARCHIVIO STUDENTI UNIVERSITARI ===\n");
-    printf("1. Crea nuovo archivio studenti\n");
-    printf("2. Carica archivio da file\n");
-    printf("3. Visualizza archivio completo\n");
-    printf("4. Cerca studente per matricola\n");
-    printf("5. Mostra statistiche\n");
-    printf("6. Ordina per media voti\n");
-    printf("7. Filtra per anno di corso\n");
-    printf("8. Salva archivio su file\n");
-    printf("9. Esci\n");
-    printf("Scegli un'opzione (1-9): ");
+printf("\n=== GESTIONE ARCHIVIO STUDENTI UNIVERSITARI ===\n"); printf("1. Crea nuovo archivio studenti\n");
+printf("2. Carica archivio da file\n");
+printf("3. Visualizza archivio completo\n");
+printf("4. Cerca studente per matricola\n");
+printf("5. Mostra statistiche\n");
+printf("6. Ordina per media voti\n");
+printf("7. Filtra per anno di corso\n");
+printf("8. Salva archivio su file\n");
+printf("9. Esci\n");
+printf("Scegli un'opzione (1-9): ");
 }
 
 int main() {
