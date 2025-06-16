@@ -2,7 +2,7 @@
 
 // Alloca memoria dinamicamente per n persone
 Persona* crea_rubrica(int n) {
-    Persona* persone = (Persona*)malloc(n * sizeof(Persona));
+    Persona* persone = (Persona*) malloc(n * sizeof(Persona));
     if (persone == NULL) {
         printf("Errore: impossibile allocare memoria per %d persone\n", n);
         return NULL;
