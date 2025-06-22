@@ -1,0 +1,28 @@
+{
+  "nome": "Massimo",
+  "cognome": "Rossi",
+  "età": 32,
+  "attivo": true,
+  "indirizzo": {
+    "via": "Via Roma 123",
+    "città": "Milano",
+    "cap": "20100"
+  },
+  "linguaggi": ["Python", "JavaScript", "C++", "Java"],
+  "progetti": [
+    {
+      "nome": "Sistema Gestionale",
+      "linguaggio": "Python",
+      "completato": true
+    },
+    {
+      "nome": "App Mobile",
+      "linguaggio": "JavaScript",
+      "completato": false
+    }
+  ],
+  "contatto": {
+    "email": "massimo@example.com",
+    "telefono": "+39 123 456 7890"
+  }
+}
