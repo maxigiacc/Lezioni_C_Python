@@ -1,10 +1,14 @@
 [
     {
-        "title": "Animal Farm",
+        "title": "Definite Algorithm",
+        "author": "Pedro Domingues"
+    },
+    {
+        "title": "1984",
         "author": "George Orwell"
     },
     {
-        "title": "Definite Algorithm",
-        "author": "Pedro Domingues"
+        "title": "Ricerca Operativa",
+        "author": "Silvano Martello"
     }
 ]
