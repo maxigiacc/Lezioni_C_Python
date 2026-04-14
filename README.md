@@ -62,3 +62,6 @@ Progetto distribuito sotto licenza MIT.
 
 # Autore
 Massimo Giaccone
+
+
+I lettori hanno la possibilità di acquistare il CD-Rom contenente le schede del Corso base di Tecnica Fotografica o dei vari Corsi Monotematici. Oltre ai Corsi presenti in rete al momento dell'ordine, il CD-Rom contiene l'intero sito ABC-Fotografia. Ulteriori informazioni.   Corso base: Corso base di tecnica fotografica. Oltre 100 schede che illustrano con chiarezza i concetti e le tecniche che stanno alla base della fotografia. Gli argomenti possono essere consultati in modo sequenziale; questo sistema è consigliato a coloro che sono alle prime armi. Ogni scheda prevede collegamenti ad argomenti correlati, per una consultazione tematica. La comprensione è facilitata da schemi, grafici, tabelle e fotografie apposite, per addentrarsi nel migliore dei modi nel meraviglioso mondo della fotografia creativa.   
